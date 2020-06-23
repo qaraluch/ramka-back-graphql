@@ -1,0 +1,27 @@
+{
+  "name": "ramka-back",
+  "version": "0.0.0",
+  "description": "Back-end for ramka project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jest": "^23.16.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "jest": "^26.0.1",
+    "prettier": "2.0.5"
+  },
+  "dependencies": {
+    "apollo-server": "^2.15.0",
+    "eslint-plugin-graphql": "^4.0.0",
+    "graphql": "^15.1.0"
+  }
+}
