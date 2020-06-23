@@ -2,9 +2,11 @@
   "name": "ramka-back",
   "version": "0.0.0",
   "description": "Back-end for ramka project",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "nodemon src/index.js",
+    "start:ci": "node src/index.js"
   },
   "author": "",
   "license": "MIT",
@@ -20,8 +22,10 @@
     "prettier": "2.0.5"
   },
   "dependencies": {
+    "apollo-datasource": "^0.7.1",
     "apollo-server": "^2.15.0",
-    "eslint-plugin-graphql": "^4.0.0",
-    "graphql": "^15.1.0"
+    "graphql": "^15.1.0",
+    "nodemon": "^2.0.4",
+    "pouchdb": "^7.2.1"
   }
 }
