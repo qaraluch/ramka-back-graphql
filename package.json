@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "apollo-datasource": "^0.7.1",
-    "apollo-server": "^2.15.0",
+    "apollo-server": "^2.25.3",
     "graphql": "^15.1.0",
     "nodemon": "^2.0.4",
     "pouchdb": "^7.2.1"
